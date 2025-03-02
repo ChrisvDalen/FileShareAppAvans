@@ -1,0 +1,43 @@
+server:
+  port: 5000
+
+spring:
+  mail:
+    host:
+    port:
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth:
+          starttls:
+            enable: 
+  ses:
+    smtp-endpoint:
+    iam-username:
+    smtp-username:
+    smt-password:
+
+  security:
+    jwt:
+      secret:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId:
+            clientSecret:
+    user:
+      name:
+      password:
+
+
+aws:
+  upload-limit:
+  region:
+  key:
+  secret:
+  dynamo-db:
+    amazonDBEndpoint: dynamodb.ap-southeast-2.amazonaws.com
+  s3UploadBucketName:
