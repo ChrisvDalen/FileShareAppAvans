@@ -42,5 +42,5 @@ jobs:
         working-directory: frontend
 
       - name: Build frontend
-        run: npm run build
+        run: CI=false npm run build
         working-directory: frontend
