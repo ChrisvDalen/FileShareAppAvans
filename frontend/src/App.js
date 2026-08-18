@@ -4,7 +4,7 @@ import { UserAuth } from "./components/UserAuth";
 import { Typography, Divider, Container } from "@mui/material";
 import { useState } from "react";
 import { Dashboard } from "./components/Dashboard";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider/LocalizationProvider";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 function App() {
